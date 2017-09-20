@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms</title>
+</head>
+<body>
+<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+
+ First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br><br>
+  <input type="submit" value="Submit"><br>
+
+ User name:<br>
+  <input type="text" name="username"><br>
+  User password:<br>
+  <input type="password" name="psw"><br>
+
+  <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+
+<input type="button" onclick="alert('Hello World!')" value="Click here for a message">
+
+</form>
+
+<h2>Send e-mail to derrick.smith@fayette.kyschools.us:</h2>
+
+<form action="mailto:derrick.smith@fayette.kyschools.us" method="post" enctype="text/plain">
+Name:<br>
+<input type="text" name="name"><br>
+E-mail:<br>
+<input type="text" name="mail"><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
